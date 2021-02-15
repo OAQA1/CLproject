@@ -1,0 +1,991 @@
+﻿<!DOCTYPE html> 
+<html> 
+	<head> 
+	<title></title> 
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.css" />
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js"></script>
+</head> 
+
+<body> 
+
+<div data-role='page' id='card1'>
+<div data-role='header'>
+<a href='#card1' data-icon='home' data-iconpos='notext'>Home</a>
+<h1></h1>
+</div><!-- /header -->
+<div data-role='content'>
+<p>Contact Reason</p>
+<ul data-role='listview' data-inset='true' >
+<li><a href='#card7' >Billing</a></li>
+</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-role='page' id='card2'>
+<div data-role='header'>
+<a href='#card1' data-icon='home' data-iconpos='notext'>Home</a>
+<a href='#'  data-rel='back'>Previous Step</a>
+<h1></h1>
+</div><!-- /header -->
+<div data-role='content'>
+<p>Is this the Customer's first bill?</p>
+<ul data-role='listview' data-inset='true' >
+<li><a href='#card3' >YES</a></li>
+<li><a href='#card10' >NO</a></li>
+</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-role='page' id='card3'>
+<div data-role='header'>
+<a href='#card1' data-icon='home' data-iconpos='notext'>Home</a>
+<a href='#'  data-rel='back'>Previous Step</a>
+<h1></h1>
+</div><!-- /header -->
+<div data-role='content'>
+<p>Is the Customer asking about:</p>
+<ul data-role='listview' data-inset='true' >
+<li><a href='#card8' >How to access and update invoice</a></li>
+<li><a href='#card9' >Acceptable payment methods</a></li>
+<li><a href='#card6' >Why bill is higher than expected?</a></li>
+<li><a href='#card13' >Cashback</a></li>
+<li><a href='#card5' >Other questions about the first bill</a></li>
+</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-role='page' id='card5'>
+<div data-role='header'>
+<a href='#card1' data-icon='home' data-iconpos='notext'>Home</a>
+<a href='#'  data-rel='back'>Previous Step</a>
+<h1></h1>
+</div><!-- /header -->
+<div data-role='content'>
+<p>Bills are only applicable if you're on the $28/mo Base Plan, $5/mo plan, Data Only Plan and Circles Five plan.</p><p>
+- One-month advance charge<br/>
+- Customers are charged for their bill each month between the 1 - 15 of each month.<br/>
+- Bills are sent to the customers every first 15 days of each month via their registered email address, after the first payment attempt.<br/>
+- Customers may request to resend their bill anytime through the Circles.Life app > Home > View Upcoming Bills > Past Bills, select any month in the usage history and hit Email.</p><p>
+Related FAQ article: https://circlesasiasupport.zendesk.com/hc/en-us/articles/900000375346-What-is-the-billing-cycle- 
+</p>
+<h4>Links:</h4>
+<a href='https://circlesasiasupport.zendesk.com/hc/en-us/articles/900000375346-What-is-the-billing-cycle-' target='_blank'>https://circlesasiasupport.zendesk.com/hc/en-us/articles/900000375346-What-is-the-billing-cycle-</a> </br> 
+<ul data-role='listview' data-inset='true' >
+</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-role='page' id='card6'>
+<div data-role='header'>
+<a href='#card1' data-icon='home' data-iconpos='notext'>Home</a>
+<a href='#'  data-rel='back'>Previous Step</a>
+<h1></h1>
+</div><!-- /header -->
+<div data-role='content'>
+<p>The first bill includes charges for two months: the first month which is prorated (may also include Plus Options and incurred Pay-As-You-Go expenses for the month) and your second month's Base Plan charged in advance. From your second bill onward, you will only be charged for that month's usage and the following month's subscription charges.</p><p>
+Related FAQ article: https://circlesasiasupport.zendesk.com/hc/en-us/articles/115000194254-How-do-I-read-my-bill- </p><p>
+Please note that customers' first month's bill may also include:<br/>
+- Pay-As-You-Go expenses for the month<br/>
+- Plus options (not prorated)</p><p>
+Related FAQ article: https://circlesasiasupport.zendesk.com/hc/en-us/articles/115000730054-Why-are-there-additional-charges-on-top-of-my-Base-Plan- </p><p>END. If Customer pushes back, please seek assistance from a TL or SME after 2 push backs.</p>
+<h4>Links:</h4>
+<a href='https://circlesasiasupport.zendesk.com/hc/en-us/articles/115000194254-How-do-I-read-my-bill-' target='_blank'>https://circlesasiasupport.zendesk.com/hc/en-us/articles/115000194254-How-do-I-read-my-bill-</a> </br> 
+<a href='https://circlesasiasupport.zendesk.com/hc/en-us/articles/115000730054-Why-are-there-additional-charges-on-top-of-my-Base-Plan-' target='_blank'>https://circlesasiasupport.zendesk.com/hc/en-us/articles/115000730054-Why-are-there-additional-charges-on-top-of-my-Base-Plan-</a> </br> 
+<ul data-role='listview' data-inset='true' >
+</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-role='page' id='card7'>
+<div data-role='header'>
+<a href='#card1' data-icon='home' data-iconpos='notext'>Home</a>
+<a href='#'  data-rel='back'>Previous Step</a>
+<h1></h1>
+</div><!-- /header -->
+<div data-role='content'>
+<p>Is the Customer asking about</p>
+<ul data-role='listview' data-inset='true' >
+<li><a href='#card2' >How Billing works</a></li>
+<li><a href='#card15' >Credit Cap</a></li>
+<li><a href='#card16' >Suspension due to Non-Payment</a></li>
+<li><a href='#card33' >Billing Payment Failure</a></li>
+<li><a href='#card38' >Payment Delay / Extension</a></li>
+<li><a href='#card14' >Billing Related Disputes</a></li>
+</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-role='page' id='card8'>
+<div data-role='header'>
+<a href='#card1' data-icon='home' data-iconpos='notext'>Home</a>
+<a href='#'  data-rel='back'>Previous Step</a>
+<h1></h1>
+</div><!-- /header -->
+<div data-role='content'>
+<p>Your bill will be sent via email as a PDF and can be found in-app as well. Just head to your Circles.Life app > View Upcoming Bills and scroll down to view your Past Bills. Just click Email and you can choose to resend that bill to yourself!<br/>
+An invoice will only be sent once payment is deducted. It can be any time between 1st - 15th of the month (no fixed date).<br/>
+You can change this email address in the Home > View Upcoming Bills > Bills Emailed To > Change OR Profile > Personal Details > Click the Pencil Icon > Update Email.<br/>
+Once you’ve updated your new address, it will only be reflected in the upcoming month's invoice. Your current and past month's invoices will not be updated. <br/>
+If you're looking for an estimate of how much your next bill is going to be, you're in luck! We want to make sure you don't get any bill shocks, so you can now view your bill estimate for the upcoming month through the Circles.Life App > View Upcoming Bills. Just note that you won't be able to view this when we're generating your next bill at the end of each month.</p><p>
+Related FAQ article: https://circlesasiasupport.zendesk.com/hc/en-us/sections/900000075303-Accessing-and-Updating-My-Invoice </p><p>END.
+</p>
+<h4>Links:</h4>
+<a href='ttps://circlesasiasupport.zendesk.com/hc/en-us/sections/900000075303-Accessing-and-Updating-My-Invoice' target='_blank'>ttps://circlesasiasupport.zendesk.com/hc/en-us/sections/900000075303-Accessing-and-Updating-My-Invoice</a> </br> 
+<ul data-role='listview' data-inset='true' >
+</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-role='page' id='card9'>
+<div data-role='header'>
+<a href='#card1' data-icon='home' data-iconpos='notext'>Home</a>
+<a href='#'  data-rel='back'>Previous Step</a>
+<h1></h1>
+</div><!-- /header -->
+<div data-role='content'>
+<p>We support credit / debit cards only.<br/>
+We’ll automatically deduct payment from customers' credit / debit card that was used when they initially signed up and built their Circles.Life plan<br/>
+Customers may update their card details via the CL App or Website:<br/>
+- In the Circles.Life app: Under Home>View Upcoming Bills>Bills Charged To>Change or Profile>Credit/Debit Card Details.<br/>
+- In the website: Under Manage Order<br/>
+For any errors when updating CC on CL app, please check troubleshooting tips on this link prior escalation.  <br/>
+If the customer wanted to remove the old credit card number on file, please escalate to L2 team.<br/>
+- Internal Note for Escalation, check Escalations Matrix.<br/>
+- - Always use Macro for Escalation: Assign to L2 Inhouse</p><p>
+Related FAQ article: https://circlesasiasupport.zendesk.com/hc/en-us/articles/900000375406-What-are-the-payment-methods-available- <br/>
+Additional FAQ article: https://circlesasiasupport.zendesk.com/hc/en-us/articles/900000694963-How-do-I-update-my-credit-card-</p><p>END
+</p>
+<h4>Links:</h4>
+<a href='https://circlesasiasupport.zendesk.com/hc/en-us/articles/900000375406-What-are-the-payment-methods-available-' target='_blank'>https://circlesasiasupport.zendesk.com/hc/en-us/articles/900000375406-What-are-the-payment-methods-available-</a> </br> 
+<a href='https://circlesasiasupport.zendesk.com/hc/en-us/articles/900000694963-How-do-I-update-my-credit-card' target='_blank'>https://circlesasiasupport.zendesk.com/hc/en-us/articles/900000694963-How-do-I-update-my-credit-card</a> </br> 
+<ul data-role='listview' data-inset='true' >
+</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-role='page' id='card10'>
+<div data-role='header'>
+<a href='#card1' data-icon='home' data-iconpos='notext'>Home</a>
+<a href='#'  data-rel='back'>Previous Step</a>
+<h1></h1>
+</div><!-- /header -->
+<div data-role='content'>
+<p>Is the Customer asking about</p>
+<ul data-role='listview' data-inset='true' >
+<li><a href='#card8' >Accessing and updating invoice</a></li>
+<li><a href='#card9' >Acceptable payment methods</a></li>
+<li><a href='#card11' >Additional Charges</a></li>
+<li><a href='#card13' >Cashback</a></li>
+</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-role='page' id='card11'>
+<div data-role='header'>
+<a href='#card1' data-icon='home' data-iconpos='notext'>Home</a>
+<a href='#'  data-rel='back'>Previous Step</a>
+<h1></h1>
+</div><!-- /header -->
+<div data-role='content'>
+<p>Pay-as-you-go charges are applied when you exceed Local Talktime & SMS usage of your Base Plan. It also includes PAYG roaming rates. See the exact rates for each country at https://www.circles.life/sg/rates-data-roamer/ <br/>
+IDD charges include international Calls, SMS & MMS made and received while in Singapore.<br/>
+If customer receives a call from an international/Global number while in Singapore (incoming call):<br/>
+- Talktime allocation will be used up first. If there are no more talk time minutes left, customers will be charged as local voice calls where it is chargeable on a one (1) minute pulse basis for the first minute at $0.08, and on a thirty (30) seconds pulse basis at $0.04 thereafter.<br/>
+- No charge if Unlimited Incoming Calls are added on the account.<br/>
+Auto-Boost is automatically activated when you run out of data. These charges will be reflected in your next bill. (Only applicable for the first 25 Auto-Boosts per billing cycle. For any Auto-Boosts thereafter, it will be charged directly to your card instead)<br/>
+Boosts give you additional data on top of your base plan and can be purchased anytime, like when you are running out of data. This includes Unlimited Data (valid until the end of the day), 2 GB and 1 GB (valid until the end of the month). They are charged to your card immediately upon activation and will be reflected in your next bill.<br/><br/>
+One-time charges may include registration fee, redelivery fee, number change fee, lost sim fee, and debit adjustments. They will be charged and reflected in your next bill.<br/>
+Addons include Unlimited Data, Unlimited Incoming Calls, Unlimited Outgoing Calls, Unlimited XP, and Super Roam. The first time you purchase/repurchase it, it will be charged immediately to your card. Subsequently, you will get monthly recurring charges from the next month onwards.<br/>
+Roaming voice services are chargeable on a one (1) minute pulse basis<br/>
+Roaming MMS services are chargeable on an event basis on top of the data consumed for uploading and downloading the content<br/>
+If a customer does not answer the incoming call while roaming, no roaming charges will be applied.</p><p>
+Related FAQ articles: https://circlesasiasupport.zendesk.com/hc/en-us/articles/900000376006-What-are-One-Time-charges- and https://circlesasiasupport.zendesk.com/hc/en-us/articles/900000364263-What-are-Boost-charges- </p><p>END
+</p>
+<h4>Links:</h4>
+<a href='https://circlesasiasupport.zendesk.com/hc/en-us/articles/900000376006-What-are-One-Time-charges-' target='_blank'>https://circlesasiasupport.zendesk.com/hc/en-us/articles/900000376006-What-are-One-Time-charges-</a> </br> 
+<a href='https://circlesasiasupport.zendesk.com/hc/en-us/articles/900000364263-What-are-Boost-charges-' target='_blank'>https://circlesasiasupport.zendesk.com/hc/en-us/articles/900000364263-What-are-Boost-charges-</a> </br> 
+<ul data-role='listview' data-inset='true' >
+</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-role='page' id='card13'>
+<div data-role='header'>
+<a href='#card1' data-icon='home' data-iconpos='notext'>Home</a>
+<a href='#'  data-rel='back'>Previous Step</a>
+<h1></h1>
+</div><!-- /header -->
+<div data-role='content'>
+<p>If you signed up for a number transfer, you will be entitled to get up to $10 waiver (which will give you $28 for 20GB / $38 for 100GB). Please note your first month will be prorated based on your activation date and your waiver will be prorated too. You will receive a full $10 waiver for the following months as they are not prorated. Upon successful delivery, your SIM card will be automatically activated with a temporary number even if the transfer is not yet started. Note that your $10 waiver will not be applied when the SIM card is activated under a temporary number. The waiver will be given only after transfer is successful. Once transfer is completed, your waiver will be applied in the next 12 months' bills. </p><p>END.</p>
+<ul data-role='listview' data-inset='true' >
+</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-role='page' id='card14'>
+<div data-role='header'>
+<a href='#card1' data-icon='home' data-iconpos='notext'>Home</a>
+<a href='#'  data-rel='back'>Previous Step</a>
+<h1></h1>
+</div><!-- /header -->
+<div data-role='content'>
+<p>Authenticate the account. How did the Customer reach out?</p>
+<ul data-role='listview' data-inset='true' >
+<li><a href='#card47' >App</a></li>
+<li><a href='#card48' >Website</a></li>
+</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-role='page' id='card15'>
+<div data-role='header'>
+<a href='#card1' data-icon='home' data-iconpos='notext'>Home</a>
+<a href='#'  data-rel='back'>Previous Step</a>
+<h1></h1>
+</div><!-- /header -->
+<div data-role='content'>
+<p>Below are the new thresholds:<br/>
+- $100<br/>
+- $200<br/>
+We will attempt to collect the payment once usage hits the first threshold - $100<br/>
+No cap on usage but when customer reaches $200 of PAYU in a given month, an instant deduction of $200 will be made from the customer's card<br/>
+If payment is successful, customer can spend another $200 then billed again in $200 increments<br/>
+If payment fails, we contact the customer to update the card. If the payment succeeds after this step, we allow him to use another $200. If the payment still fails, it may result in service disruption.</p><p>
+Related FAQ Article:</p>
+<h4>Links:</h4>
+<a href='https://circlesasiasupport.zendesk.com/hc/en-us/articles/900002972786-What-is-a-credit-cap' target='_blank'>https://circlesasiasupport.zendesk.com/hc/en-us/articles/900002972786-What-is-a-credit-cap</a> </br> 
+<ul data-role='listview' data-inset='true' >
+</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-role='page' id='card16'>
+<div data-role='header'>
+<a href='#card1' data-icon='home' data-iconpos='notext'>Home</a>
+<a href='#'  data-rel='back'>Previous Step</a>
+<h1></h1>
+</div><!-- /header -->
+<div data-role='content'>
+<p>Is the Customer:</p>
+<ul data-role='listview' data-inset='true' >
+<li><a href='#card17' >Asking about when suspension happens</a></li>
+<li><a href='#card56' >Contacting because they received a suspension notice / their account got suspended due to non pay</a></li>
+</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-role='page' id='card17'>
+<div data-role='header'>
+<a href='#card1' data-icon='home' data-iconpos='notext'>Home</a>
+<a href='#'  data-rel='back'>Previous Step</a>
+<h1></h1>
+</div><!-- /header -->
+<div data-role='content'>
+<p>We suspend lines on these scenarios:</p><p>
+- More than 1 unpaid bill<br/>
+- - 2 & above<br/>
+- 1 unpaid bill that has been outstanding for more than 50 days.<br/>
+- - 50 days from the start date.<br/>
+- (Current month’s “estimated” bill amount + Total outstanding amount) > $200</p><p>
+How to determine current month’s estimated amount<br/>
+- Via Kirk<br/>
+- - Customers > Details Tab > Credit Cap<br/>
+- - Customers > Details Tab > Current Cycle Plan > usage panel (PAYG)</p><p>
+- Check with Billing Team<br/>
+- - We’re using this BRM tool called customer centre which displays all the related bill amounts.</p><p>END
+</p>
+<ul data-role='listview' data-inset='true' >
+</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-role='page' id='card18'>
+<div data-role='header'>
+<a href='#card1' data-icon='home' data-iconpos='notext'>Home</a>
+<a href='#'  data-rel='back'>Previous Step</a>
+<h1></h1>
+</div><!-- /header -->
+<div data-role='content'>
+<p>Check if the Customer is backlisted</p><p>Kirk under Details Tab>Billing Account>Blacklist> Yes or No</p><p>Is the Customer blacklisted?</p>
+<ul data-role='listview' data-inset='true' >
+<li><a href='#card19' >YES</a></li>
+<li><a href='#card20' >NO</a></li>
+</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-role='page' id='card19'>
+<div data-role='header'>
+<a href='#card1' data-icon='home' data-iconpos='notext'>Home</a>
+<a href='#'  data-rel='back'>Previous Step</a>
+<h1></h1>
+</div><!-- /header -->
+<div data-role='content'>
+<p>Advise the customer that those with unsuccessful payments, case will be automatically forwarded to our partner. <br/>
+Inform the customer that the case is now handled by our partner and they operate separately from us. <br/>
+Encourage customers to pay as this is the only way to settle the case so that our partner will stop chasing them<br/>
+Customer's credit score will be affected due to non-payment<br/>
+Customers might ask if their lines will be reconnected after paying, the answer is NO. </p><p>
+
+NOTE:<br/>
+
+We shouldn’t proactively say that their lines will not be reconnected, only if they ask. Check Kirk to confirm if customer is blacklisted.</p>
+<h4>Links:</h4>
+<a href='https://circleslifecs.zendesk.com/hc/en-us/articles/360006636673-DEBT-COLLECTION' target='_blank'>https://circleslifecs.zendesk.com/hc/en-us/articles/360006636673-DEBT-COLLECTION</a> </br> 
+<ul data-role='listview' data-inset='true' >
+</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-role='page' id='card20'>
+<div data-role='header'>
+<a href='#card1' data-icon='home' data-iconpos='notext'>Home</a>
+<a href='#'  data-rel='back'>Previous Step</a>
+<h1></h1>
+</div><!-- /header -->
+<div data-role='content'>
+<p>Check Unpaid bills via Kirk > Customers > Billing Tab and ask the Customer to pay the outstanding balance. </p><p>
+
+If there are 3 months  more of unpaid bills, advise the Customer accordingly:</p><p>
+
+"It seems that there’s been a few months of unsettled bills on the account and the case will soon be forwarded to a debt collection agency."<br/>
+"Not to worry as there’s still time to have it settled. We request that payment be made on or before the deadline given so that the case won’t be forwarded to the debt collection agency."</p>
+<ul data-role='listview' data-inset='true' >
+<li><a href='#card21' >Customer with access to the Circles.Life app</a></li>
+<li><a href='#card24' >Customer doesn’t have access to the Circles.Life app</a></li>
+<li><a href='#card25' >Customer needs to update his card information + With access to Circles.Life app + CL Website</a></li>
+<li><a href='#card28' >Customer needs to update his card information + Without access to Circles.Life app</a></li>
+<li><a href='#card29' >Alternative solution</a></li>
+</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-role='page' id='card21'>
+<div data-role='header'>
+<a href='#card1' data-icon='home' data-iconpos='notext'>Home</a>
+<a href='#'  data-rel='back'>Previous Step</a>
+<h1></h1>
+</div><!-- /header -->
+<div data-role='content'>
+<p>Ask the customer to use the Pay Now option (Past Usage > Billing Period > Pay Now).
+
+Is the Customer going to use bank transfer?</p>
+<ul data-role='listview' data-inset='true' >
+<li><a href='#card22' >YES</a></li>
+<li><a href='#card23' >NO</a></li>
+</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-role='page' id='card22'>
+<div data-role='header'>
+<a href='#card1' data-icon='home' data-iconpos='notext'>Home</a>
+<a href='#'  data-rel='back'>Previous Step</a>
+<h1></h1>
+</div><!-- /header -->
+<div data-role='content'>
+<p>L1 to flag TL about a suspended customer wanting to make a payment.<br/>
+Once approved, TL to update the expert with the CL bank info<br/>
+TL to provide info to L1 and L1 to update customer about the bank details, set proper expectations about this option to be one time exception and advise to send us a copy of the deposit/bank transfer slip</p><p>
+Note that it may take up to 3 banking days for the payment to post if bank transfer is used.</p>
+<ul data-role='listview' data-inset='true' >
+</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-role='page' id='card23'>
+<div data-role='header'>
+<a href='#card1' data-icon='home' data-iconpos='notext'>Home</a>
+<a href='#'  data-rel='back'>Previous Step</a>
+<h1></h1>
+</div><!-- /header -->
+<div data-role='content'>
+<p>Advise the Customer to pay via Pay Now. Check if the payment is reflecting in Kirk. If it is, post a message in Slack (circles_oampi_ops) for manual activation.</p><p>IMPORTANT:<br/>For any irregularities, suspicious activities, fraudulent acts - do not reactivate the account. Please forward the case to Billing for further investigation.</p><p>Advise the Customer once you get confirmation that the account has been reactivated.</p><p>END</p>
+<ul data-role='listview' data-inset='true' >
+</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-role='page' id='card24'>
+<div data-role='header'>
+<a href='#card1' data-icon='home' data-iconpos='notext'>Home</a>
+<a href='#'  data-rel='back'>Previous Step</a>
+<h1></h1>
+</div><!-- /header -->
+<div data-role='content'>
+<p>Assist the customer by recommending that we can actually initiate the payment for him after authentication.</p>
+<ul data-role='listview' data-inset='true' >
+<li><a href='#card32' >Next</a></li>
+</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-role='page' id='card25'>
+<div data-role='header'>
+<a href='#card1' data-icon='home' data-iconpos='notext'>Home</a>
+<a href='#'  data-rel='back'>Previous Step</a>
+<h1></h1>
+</div><!-- /header -->
+<div data-role='content'>
+<p>Customers may update their card details via the CL App or Website:</p><p>
+In the Circles.Life app: Under Home>View Upcoming Bills>Bills Charged To>Change or Profile>Credit/Debit Card Details.<br/>
+In the website: Under Manage Order</p><p>Once confirmation is received that the changes are made, ask the customer to use the Pay Now option (Home>Pay Now OR Home>View Upcoming Bills>Pay Now).<br/>NOTE: For any errors when updating CC on CL app, please check troubleshooting tips on the link prior escalation. <br/>If the customer wants to remove the old credit card number on file, please escalate to the L2 team.<br/>
+- Internal Note for Escalation, check Escalations Matrix.
+- Always use Macro for Escalation: Assigned to L2 Inhouse</p><p>
+Is the Customer going to use bank transfer?
+</p>
+<h4>Links:</h4>
+<a href='https://circleslifecs.zendesk.com/hc/en-us/articles/360031989513-Troubleshooting-Tips-on-CC-Update-Errors-from-the-App' target='_blank'>https://circleslifecs.zendesk.com/hc/en-us/articles/360031989513-Troubleshooting-Tips-on-CC-Update-Errors-from-the-App</a> </br> 
+<a href='https://docs.google.com/spreadsheets/d/1W8WuccHJhi4hTqgpVWYcHRd8X1hNbldfzb_zyasITL8/edit?usp=sharing' target='_blank'>https://docs.google.com/spreadsheets/d/1W8WuccHJhi4hTqgpVWYcHRd8X1hNbldfzb_zyasITL8/edit?usp=sharing</a> </br> 
+<ul data-role='listview' data-inset='true' >
+<li><a href='#card22' >YES</a></li>
+<li><a href='#card23' >NO</a></li>
+</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-role='page' id='card27'>
+<div data-role='header'>
+<a href='#card1' data-icon='home' data-iconpos='notext'>Home</a>
+<a href='#'  data-rel='back'>Previous Step</a>
+<h1></h1>
+</div><!-- /header -->
+<div data-role='content'>
+<p>Advise the Customer to have the account holder contact us / contact us again once they have the correct info.</p><p>END</p>
+<ul data-role='listview' data-inset='true' >
+</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-role='page' id='card28'>
+<div data-role='header'>
+<a href='#card1' data-icon='home' data-iconpos='notext'>Home</a>
+<a href='#'  data-rel='back'>Previous Step</a>
+<h1></h1>
+</div><!-- /header -->
+<div data-role='content'>
+<p>Access to the CC Update Link on Kirk (Actions > CC Update Link > Generate). Give the link to the customer and advise him that the link is only valid for the next 20 minutes.</p><p> If the Customer confirms that they were able to successfully update their CC information, assist the customer by recommending that we can actually initiate the payment for them.</p>
+<ul data-role='listview' data-inset='true' >
+<li><a href='#card32' >Next</a></li>
+</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-role='page' id='card29'>
+<div data-role='header'>
+<a href='#card1' data-icon='home' data-iconpos='notext'>Home</a>
+<a href='#'  data-rel='back'>Previous Step</a>
+<h1></h1>
+</div><!-- /header -->
+<div data-role='content'>
+<p>Tell the customer that he can wait for our next payment round in 1-3 business days. Advise him to ensure that there is sufficient funds on his card for us to successfully deduct payment for all outstanding bills
+</p>
+<ul data-role='listview' data-inset='true' >
+</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-role='page' id='card32'>
+<div data-role='header'>
+<a href='#card1' data-icon='home' data-iconpos='notext'>Home</a>
+<a href='#'  data-rel='back'>Previous Step</a>
+<h1></h1>
+</div><!-- /header -->
+<div data-role='content'>
+<p>Open the cx account in Kirk > Billing Tab<br/>
+Under Billing Tab > Payment > look for the specific month/outstanding bill that the customer wants to settle<br/>
+Click on "Pay Now" to initiate the payment<br/>
+If payment is successful, inform the customer that they will receive email notification from us of the successful deduction.</p>
+<ul data-role='listview' data-inset='true' >
+</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-role='page' id='card33'>
+<div data-role='header'>
+<a href='#card1' data-icon='home' data-iconpos='notext'>Home</a>
+<a href='#'  data-rel='back'>Previous Step</a>
+<h1></h1>
+</div><!-- /header -->
+<div data-role='content'>
+<p>If payment fails:</p><p>
+We re-attempt again within 1-3 business days (daily payment rounds), except on public holidays. We monitor the usage of customers who have failed payment and an increase in the outstanding amount beyond a certain point would result in service disruption (throttling)<br/>
+Ask customer to update their card info via the Circles.Life app or ensure that funds are available. The Customer can also process the payment manually through the Pay Now option</p><p>
+
+
+</p>
+<h4>Links:</h4>
+<a href='https://circlesasiasupport.zendesk.com/hc/en-us/articles/900001362743-Why-my-Pay-Now-is-not-working-' target='_blank'>https://circlesasiasupport.zendesk.com/hc/en-us/articles/900001362743-Why-my-Pay-Now-is-not-working-</a> </br> 
+<ul data-role='listview' data-inset='true' >
+<li><a href='#card34' >Customer with access to the Circles.Life app</a></li>
+<li><a href='#card35' >Customer doesn’t have access to the Circles.Life app</a></li>
+<li><a href='#card29' >Alternative Solution</a></li>
+</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-role='page' id='card34'>
+<div data-role='header'>
+<a href='#card1' data-icon='home' data-iconpos='notext'>Home</a>
+<a href='#'  data-rel='back'>Previous Step</a>
+<h1></h1>
+</div><!-- /header -->
+<div data-role='content'>
+<p>Ask the customer to use the Pay Now option (Bills > Billing Period > Pay Now).</p>
+<ul data-role='listview' data-inset='true' >
+</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-role='page' id='card35'>
+<div data-role='header'>
+<a href='#card1' data-icon='home' data-iconpos='notext'>Home</a>
+<a href='#'  data-rel='back'>Previous Step</a>
+<h1></h1>
+</div><!-- /header -->
+<div data-role='content'>
+<p>Assist the customer by recommending that we can actually initiate the payment for him. Get confirmation from the customer that he has sufficient balance on his card for us to deduct all unsettled bills for him. </p>
+<ul data-role='listview' data-inset='true' >
+<li><a href='#card59' >NEXT</a></li>
+</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-role='page' id='card38'>
+<div data-role='header'>
+<a href='#card1' data-icon='home' data-iconpos='notext'>Home</a>
+<a href='#'  data-rel='back'>Previous Step</a>
+<h1></h1>
+</div><!-- /header -->
+<div data-role='content'>
+<p>Ask for the reason and make sure that the Customer has the required documents. Please note that even is the Customer is only making a partial payment, we will still ask for supporting documents:</p><p>
+
+Loss of employment: official termination letter from your employer<br/>
+Loss of income or business failure: legal documents or reports from an accountant or financial adviser declaring business failure, text communication or letter from your employer declaring suspension of work activities due to covid-19, last 3 months of bank account statements, last 3 months of payslips<br/>
+Medical circumstances: medical certificate from a qualified medical practitioner.</p><p>
+
+
+Also make sure that we verify the Customer's account:</p><p>
+
+If Customer contacted via the app: Verify the registered owner and mobile # in question<br/>
+If the Customer contacted via the website: Verify the registered owner, mobile # in question, DOB, last 4 characters of NRIC.
+</p>
+<ul data-role='listview' data-inset='true' >
+<li><a href='#card39' >Next step</a></li>
+<li><a href='#card44' >Verification unsuccessful / no supporting documents</a></li>
+<li><a href='#card46' >Customer unable to pay but was able to provide required documents</a></li>
+</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-role='page' id='card39'>
+<div data-role='header'>
+<a href='#card1' data-icon='home' data-iconpos='notext'>Home</a>
+<a href='#'  data-rel='back'>Previous Step</a>
+<h1></h1>
+</div><!-- /header -->
+<div data-role='content'>
+<p>Verify documents using the below criteria.</p><p>
+
+Loss of employment:<br/>
+Official termination letter from your employer: letter explicitly stating that customer is terminated from employment, letter has employer’s name and signature </p><p>
+Loss of income or business failure: <br/>
+Legal documents or reports from an accountant or financial adviser declaring business failure
+Text communication or letter from your employer declaring suspension of work activities due to covid-19: some SMB would suspend/terminate their employees through text message, we can approve this as long as the text explicitly states the suspension <br/>
+Last 3 months of bank account statements: as long as we see a decrease in income shown on the last 3 months of bank statement, we can approve this<br/>
+last 3 months of payslips: as long as we see a decrease in income shown on the last 3 months of payslip, we can approve this</p><p>
+Medical circumstances: <br/>
+Medical certificate from a qualified medical practitioner: we can approve this as long as the letter explicitly states a medical condition that makes customer unfit to go to work </p>
+<ul data-role='listview' data-inset='true' >
+<li><a href='#card43' >Successful</a></li>
+<li><a href='#card45' >Unsuccessful</a></li>
+</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-role='page' id='card41'>
+<div data-role='header'>
+<a href='#card1' data-icon='home' data-iconpos='notext'>Home</a>
+<a href='#'  data-rel='back'>Previous Step</a>
+<h1></h1>
+</div><!-- /header -->
+<div data-role='content'>
+<p>If customer has one unpaid invoice, then L1 clicks on Delay Payment button, enters the 75% of unpaid invoice amount, selects last payment date of remaining amount as one month from then and hits Submit 
+</p>
+<ul data-role='listview' data-inset='true' >
+</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-role='page' id='card42'>
+<div data-role='header'>
+<a href='#card1' data-icon='home' data-iconpos='notext'>Home</a>
+<a href='#'  data-rel='back'>Previous Step</a>
+<h1></h1>
+</div><!-- /header -->
+<div data-role='content'>
+<p>If customer has two unpaid invoices, two cases are there as mentioned below:<br/>
+If amount is equal to one bill, then from kirk, L1 hits Pay against that invoice with appropriate amount to be paid<br/>
+If the amount is greater than one invoice, L1 hits Pay against the older invoice. For the remaining amount, L1 clicks on Delay Payment, selects the newer invoice and enters the remaining amount to be paid, selects the last date to be paid for rest of the outstanding amount and clicks Submit<br/>
+Example: If a customer has two invoices unpaid -  older invoice of $30 and newer invoice of $45, customer can pay a maximum of 75% of the total outstanding as upfront partial payment. This is 75% of $75 = $56.25. <br/>
+L1 clicks Pay against older invoice of $30 and pays that off fully<br/>
+L1 then clicks Delay Payment, selects the newer invoice of $45, enters a partial amount of $26.25, enters the last payment date for the remaining amount of $18.75 as one month from then.
+</p>
+<ul data-role='listview' data-inset='true' >
+</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-role='page' id='card43'>
+<div data-role='header'>
+<a href='#card1' data-icon='home' data-iconpos='notext'>Home</a>
+<a href='#'  data-rel='back'>Previous Step</a>
+<h1></h1>
+</div><!-- /header -->
+<div data-role='content'>
+<p>Inform customer about how much they’ll have to pay<br/>
+- L1 to ask Customer how much they can pay<br/>
+- L1 Check if this is within 50-75% of the total outstanding amount<br/>
+L1 to inform customers to have enough balance on their card/update their card from the app.<br/>
+L1 to check the amount due and the number of unpaid invoices.</p><p>
+
+Does the Customer have more than 1 unpaid bill?</p>
+<ul data-role='listview' data-inset='true' >
+<li><a href='#card42' >YES</a></li>
+<li><a href='#card41' >NO</a></li>
+</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-role='page' id='card44'>
+<div data-role='header'>
+<a href='#card1' data-icon='home' data-iconpos='notext'>Home</a>
+<a href='#'  data-rel='back'>Previous Step</a>
+<h1></h1>
+</div><!-- /header -->
+<div data-role='content'>
+<p>If account verification fails, advise the Customer to have the account holder contact us directly / contact us again with the correct information.
+
+Customers declare financial difficulties but are unable to provide any of the documents above due to cash income, which is not recorded in payslips or bank statements. Billing team will review this on a case by case basis. Escalate this to L2.
+</p>
+<ul data-role='listview' data-inset='true' >
+</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-role='page' id='card45'>
+<div data-role='header'>
+<a href='#card1' data-icon='home' data-iconpos='notext'>Home</a>
+<a href='#'  data-rel='back'>Previous Step</a>
+<h1></h1>
+</div><!-- /header -->
+<div data-role='content'>
+<p>Advise Customer that they need to send us other documentation. If no other docmuents available, please escalate to L2.</p>
+<ul data-role='listview' data-inset='true' >
+</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-role='page' id='card46'>
+<div data-role='header'>
+<a href='#card1' data-icon='home' data-iconpos='notext'>Home</a>
+<a href='#'  data-rel='back'>Previous Step</a>
+<h1></h1>
+</div><!-- /header -->
+<div data-role='content'>
+<p>Escalate to TL / L2.</p>
+<ul data-role='listview' data-inset='true' >
+</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-role='page' id='card47'>
+<div data-role='header'>
+<a href='#card1' data-icon='home' data-iconpos='notext'>Home</a>
+<a href='#'  data-rel='back'>Previous Step</a>
+<h1></h1>
+</div><!-- /header -->
+<div data-role='content'>
+<p>Verify the registered owner and mobile # in question</p>
+<ul data-role='listview' data-inset='true' >
+<li><a href='#card50' >Successful</a></li>
+<li><a href='#card49' >Unsuccessful</a></li>
+</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-role='page' id='card48'>
+<div data-role='header'>
+<a href='#card1' data-icon='home' data-iconpos='notext'>Home</a>
+<a href='#'  data-rel='back'>Previous Step</a>
+<h1></h1>
+</div><!-- /header -->
+<div data-role='content'>
+<p>Verify the registered owner, mobile # in question, DOB, last 4 characters of NRIC.</p>
+<ul data-role='listview' data-inset='true' >
+<li><a href='#card50' >Successul</a></li>
+<li><a href='#card49' >Unsuccessful</a></li>
+</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-role='page' id='card49'>
+<div data-role='header'>
+<a href='#card1' data-icon='home' data-iconpos='notext'>Home</a>
+<a href='#'  data-rel='back'>Previous Step</a>
+<h1></h1>
+</div><!-- /header -->
+<div data-role='content'>
+<p>Advise the Customer to have the account holder contact us / contact us again once they have the correct info.</p><p>END</p>
+<ul data-role='listview' data-inset='true' >
+</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-role='page' id='card50'>
+<div data-role='header'>
+<a href='#card1' data-icon='home' data-iconpos='notext'>Home</a>
+<a href='#'  data-rel='back'>Previous Step</a>
+<h1></h1>
+</div><!-- /header -->
+<div data-role='content'>
+<p>Identify what kind of charges is the customer disputing</p>
+<ul data-role='listview' data-inset='true' >
+<li><a href='#card51' >PAYG charges</a></li>
+<li><a href='#card52' >Roaming Charges</a></li>
+</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-role='page' id='card51'>
+<div data-role='header'>
+<a href='#card1' data-icon='home' data-iconpos='notext'>Home</a>
+<a href='#'  data-rel='back'>Previous Step</a>
+<h1></h1>
+</div><!-- /header -->
+<div data-role='content'>
+<p>For PAYG charges (Non- roaming such as local calls, local SMS, global SMS, MMS) check cx CDR in Kirk. If charges are valid, inform the customer and resolve the issue.</p>
+<ul data-role='listview' data-inset='true' >
+<li><a href='#card53' >Customer pushes back</a></li>
+</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-role='page' id='card52'>
+<div data-role='header'>
+<a href='#card1' data-icon='home' data-iconpos='notext'>Home</a>
+<a href='#'  data-rel='back'>Previous Step</a>
+<h1></h1>
+</div><!-- /header -->
+<div data-role='content'>
+<p>For Roaming Charges (roaming call, roaming SMS, roaming data) check the customer's CDR in Kirk. If charges are valid, inform the customer and resolve the issue.</p>
+<ul data-role='listview' data-inset='true' >
+<li><a href='#card53' >Customer pushes back</a></li>
+</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-role='page' id='card53'>
+<div data-role='header'>
+<a href='#card1' data-icon='home' data-iconpos='notext'>Home</a>
+<a href='#'  data-rel='back'>Previous Step</a>
+<h1></h1>
+</div><!-- /header -->
+<div data-role='content'>
+<p>Ask for assistance from your TL. An initial 25% of the charge waiver/refund may be offered with approval.</p><p>IMPORTTANT: Offer the waiver first. Only offer the refund if the Customer asks for it.</p>
+<ul data-role='listview' data-inset='true' >
+<li><a href='#card54' >Customer accepts</a></li>
+<li><a href='#card55' >Customer does not accept</a></li>
+</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-role='page' id='card54'>
+<div data-role='header'>
+<a href='#card1' data-icon='home' data-iconpos='notext'>Home</a>
+<a href='#'  data-rel='back'>Previous Step</a>
+<h1></h1>
+</div><!-- /header -->
+<div data-role='content'>
+<p>Process the waiver in kirk:</p><p>Step 1: Waivers have to be requested via Kirk > Customers > Waivers > Request button section<br/>
+Step 2: L1 has to key-in waiver category, waiver reason, description(short analysis), waiver amount to request a waiver and Zendesk Ticket ID field. Once done, L1 clicks on Create.<br/>
+Step 3: All the information will be sent to the approver for approval (manual approval)</p><p>
+IMPORTANT NOTES:<br/>
+ Waiver requests less than $10 are normally auto-approved except for the following instances:<br/>
+Customer’s total waiver request for the current month is more than $50, or<br/>
+Customer’s total waiver request in the last rolling 6-month period is more than $200
+20GB for $20 waiver requests are auto-approved<br/>
+Deadline for waiver requests to be reflected in the next billing cycle is 2 business days before the last day of the month.<br/>
+No waiver requests must be submitted in Kirk from 10:01 PM of the last day of the month to 9:00 AM on the first day of the month.<br/>
+For waiver requests under 2 different reasons, please submit separate requests for each reason.</p><p>For refunds, escalate the ticket to L2 for processing. Please follow the escalation matrix.</p>
+<ul data-role='listview' data-inset='true' >
+</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-role='page' id='card55'>
+<div data-role='header'>
+<a href='#card1' data-icon='home' data-iconpos='notext'>Home</a>
+<a href='#'  data-rel='back'>Previous Step</a>
+<h1></h1>
+</div><!-- /header -->
+<div data-role='content'>
+<p>Ask for further assitance from your TL. A higher waiver / refund amount may be approved.</p>
+<ul data-role='listview' data-inset='true' >
+</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-role='page' id='card56'>
+<div data-role='header'>
+<a href='#card1' data-icon='home' data-iconpos='notext'>Home</a>
+<a href='#'  data-rel='back'>Previous Step</a>
+<h1></h1>
+</div><!-- /header -->
+<div data-role='content'>
+<p>Authenticate the account. How did the Customer reach out?
+</p>
+<ul data-role='listview' data-inset='true' >
+<li><a href='#card57' >CL App</a></li>
+<li><a href='#card58' >Website</a></li>
+</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-role='page' id='card57'>
+<div data-role='header'>
+<a href='#card1' data-icon='home' data-iconpos='notext'>Home</a>
+<a href='#'  data-rel='back'>Previous Step</a>
+<h1></h1>
+</div><!-- /header -->
+<div data-role='content'>
+<p>Verify the registered owner and mobile # in question</p>
+<ul data-role='listview' data-inset='true' >
+<li><a href='#card18' >Successful</a></li>
+<li><a href='#card27' >Unsuccessful</a></li>
+</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-role='page' id='card58'>
+<div data-role='header'>
+<a href='#card1' data-icon='home' data-iconpos='notext'>Home</a>
+<a href='#'  data-rel='back'>Previous Step</a>
+<h1></h1>
+</div><!-- /header -->
+<div data-role='content'>
+<p>Verify the registered owner, mobile # in question, DOB, last 4 characters of NRIC.</p>
+<ul data-role='listview' data-inset='true' >
+<li><a href='#card18' >Succesful</a></li>
+<li><a href='#card27' >Unsuccessful</a></li>
+</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-role='page' id='card59'>
+<div data-role='header'>
+<a href='#card1' data-icon='home' data-iconpos='notext'>Home</a>
+<a href='#'  data-rel='back'>Previous Step</a>
+<h1></h1>
+</div><!-- /header -->
+<div data-role='content'>
+<p>Authenticate the account. How did the Customer reach out?</p>
+<ul data-role='listview' data-inset='true' >
+<li><a href='#card60' >CL App</a></li>
+<li><a href='#card61' >Website</a></li>
+</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-role='page' id='card60'>
+<div data-role='header'>
+<a href='#card1' data-icon='home' data-iconpos='notext'>Home</a>
+<a href='#'  data-rel='back'>Previous Step</a>
+<h1></h1>
+</div><!-- /header -->
+<div data-role='content'>
+<p>Verify the registered owner and mobile # in question</p>
+<ul data-role='listview' data-inset='true' >
+<li><a href='#card32' >Successful</a></li>
+<li><a href='#card27' >Unsuccessful</a></li>
+</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-role='page' id='card61'>
+<div data-role='header'>
+<a href='#card1' data-icon='home' data-iconpos='notext'>Home</a>
+<a href='#'  data-rel='back'>Previous Step</a>
+<h1></h1>
+</div><!-- /header -->
+<div data-role='content'>
+<p>Verify the registered owner, mobile # in question, DOB, last 4 characters of NRIC.</p>
+<ul data-role='listview' data-inset='true' >
+<li><a href='#card32' >Successful</a></li>
+<li><a href='#card27' >Unsuccessful</a></li>
+</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+
+
+
+
+</body>
+</html>
